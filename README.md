@@ -25,6 +25,6 @@ Two state-of-the-art techniques were implemented:
   - `test_fpga/` – FPGA test modules
   - `Makefile` – Build script
   - `mux_selector_final.sv`, `test_mechanisms.sv`, etc. – Test and integration modules
-  - - `test_top_mechanisms.cpp` – Testbenches
+  - `test_top_mechanisms.cpp` – Testbenches
 - Top-level:
   - `*.circ` – Logisim designs
