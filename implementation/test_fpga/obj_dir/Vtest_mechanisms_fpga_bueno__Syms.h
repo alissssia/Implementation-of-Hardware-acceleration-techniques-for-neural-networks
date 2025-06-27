@@ -1,0 +1,76 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Symbol table internal header
+//
+// Internal details; most calling programs do not need this header,
+// unless using verilator public meta comments.
+
+#ifndef VERILATED_VTEST_MECHANISMS_FPGA_BUENO__SYMS_H_
+#define VERILATED_VTEST_MECHANISMS_FPGA_BUENO__SYMS_H_  // guard
+
+#include "verilated.h"
+
+// INCLUDE MODEL CLASS
+
+#include "Vtest_mechanisms_fpga_bueno.h"
+
+// INCLUDE MODULE CLASSES
+#include "Vtest_mechanisms_fpga_bueno___024root.h"
+#include "Vtest_mechanisms_fpga_bueno_test_mechanisms_fpga_bueno.h"
+#include "Vtest_mechanisms_fpga_bueno_top_patching_uno.h"
+#include "Vtest_mechanisms_fpga_bueno_cache_tfg.h"
+#include "Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8.h"
+#include "Vtest_mechanisms_fpga_bueno_bram__D100_Wd.h"
+#include "Vtest_mechanisms_fpga_bueno_bram__D100_W10.h"
+
+// DPI TYPES for DPI Export callbacks (Internal use)
+
+// SYMS CLASS (contains all model state)
+class alignas(VL_CACHE_LINE_BYTES)Vtest_mechanisms_fpga_bueno__Syms final : public VerilatedSyms {
+  public:
+    // INTERNAL STATE
+    Vtest_mechanisms_fpga_bueno* const __Vm_modelp;
+    VlDeleter __Vm_deleter;
+    bool __Vm_didInit = false;
+
+    // MODULE INSTANCE STATE
+    Vtest_mechanisms_fpga_bueno___024root TOP;
+    Vtest_mechanisms_fpga_bueno_test_mechanisms_fpga_bueno TOP__test_mechanisms_fpga_bueno;
+    Vtest_mechanisms_fpga_bueno_top_patching_uno TOP__test_mechanisms_fpga_bueno__patch_inst;
+    Vtest_mechanisms_fpga_bueno_cache_tfg TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache;
+    Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__0__KET____DOT__way_instance;
+    Vtest_mechanisms_fpga_bueno_bram__D100_W10 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__0__KET____DOT__way_instance__data_bram;
+    Vtest_mechanisms_fpga_bueno_bram__D100_Wd TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__0__KET____DOT__way_instance__tag_bram;
+    Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__1__KET____DOT__way_instance;
+    Vtest_mechanisms_fpga_bueno_bram__D100_W10 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__1__KET____DOT__way_instance__data_bram;
+    Vtest_mechanisms_fpga_bueno_bram__D100_Wd TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__1__KET____DOT__way_instance__tag_bram;
+    Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__2__KET____DOT__way_instance;
+    Vtest_mechanisms_fpga_bueno_bram__D100_W10 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__2__KET____DOT__way_instance__data_bram;
+    Vtest_mechanisms_fpga_bueno_bram__D100_Wd TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__2__KET____DOT__way_instance__tag_bram;
+    Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__3__KET____DOT__way_instance;
+    Vtest_mechanisms_fpga_bueno_bram__D100_W10 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__3__KET____DOT__way_instance__data_bram;
+    Vtest_mechanisms_fpga_bueno_bram__D100_Wd TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__3__KET____DOT__way_instance__tag_bram;
+    Vtest_mechanisms_fpga_bueno_cache_way__Td_D10_S8 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__4__KET____DOT__way_instance;
+    Vtest_mechanisms_fpga_bueno_bram__D100_W10 TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__4__KET____DOT__way_instance__data_bram;
+    Vtest_mechanisms_fpga_bueno_bram__D100_Wd TOP__test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__4__KET____DOT__way_instance__tag_bram;
+
+    // SCOPE NAMES
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__0__KET____way_instance__data_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__0__KET____way_instance__tag_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__1__KET____way_instance__data_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__1__KET____way_instance__tag_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__2__KET____way_instance__data_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__2__KET____way_instance__tag_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__3__KET____way_instance__data_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__3__KET____way_instance__tag_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__4__KET____way_instance__data_bram;
+    VerilatedScope __Vscope_test_mechanisms_fpga_bueno__patch_inst__patch_cache__ways__BRA__4__KET____way_instance__tag_bram;
+
+    // CONSTRUCTORS
+    Vtest_mechanisms_fpga_bueno__Syms(VerilatedContext* contextp, const char* namep, Vtest_mechanisms_fpga_bueno* modelp);
+    ~Vtest_mechanisms_fpga_bueno__Syms();
+
+    // METHODS
+    const char* name() { return TOP.name(); }
+};
+
+#endif  // guard
