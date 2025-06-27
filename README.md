@@ -18,12 +18,13 @@ Two state-of-the-art techniques were implemented:
 
 ## Repository Structure
 
-├── implementation/ # Hardware modules (SystemVerilog and C++)
-│ ├── cache/ # Backup cache logic
-│ ├── mecanismo_flipping/ # Bit-flipping mechanism
-│ ├── mecanismo_patching/ # Patching mechanism
-│ ├── test_fpga/ # FPGA integration and test modules
-│ ├── test_top_mechanisms.cpp # test of both mechanisms together
-│ ├── *.sv # modules to integrate both mechanisms
-│ └── Makefile # Build script to test both modules
-├── *.circ # Logisim designs
+- `implementation/` – Hardware modules (SystemVerilog and C++)
+  - `cache/` – Backup cache logic
+  - `mecanismo_flipping/` – Bit-flipping mechanism
+  - `mecanismo_patching/` – Patching mechanism
+  - `test_fpga/` – FPGA test modules
+  - `Makefile` – Build script
+  - `mux_selector_final.sv`, `test_mechanisms.sv`, etc. – Test and integration modules
+  - - `test_top_mechanisms.cpp` – Testbenches
+- Top-level:
+  - `*.circ` – Logisim designs
